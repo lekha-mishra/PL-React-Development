@@ -77,10 +77,6 @@ function ContactsListingContainer(props) {
       });
   };
 
-  useEffect(() => {
-    fetchData(props?.searchValue);
-  }, []);
-
   const onScroll = () => {
     if (listInnerRef.current) {
       const { scrollTop, scrollHeight, clientHeight } = listInnerRef.current;

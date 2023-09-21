@@ -6,7 +6,7 @@ const CustomModal = (props) => {
     <Modal
       fullscreen={props?.isFullWidth || true}
       {...props}
-      size="md"
+      size={props?.modalSize || "md"}
       centered
       scrollable={false}
       backdropClassName="backdrop-2"

@@ -37,3 +37,7 @@ button.B:hover,
 .backdrop-2 {
   z-index: 1055;
 }
+/* 
+.contactModal .modal-body {
+  background: url("./assest/img/CardBg.png");
+} */

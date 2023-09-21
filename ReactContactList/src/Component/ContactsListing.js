@@ -60,22 +60,25 @@ const ContactsListing = ({
         show={showContentInfo.showModal}
         onClose={hideModal}
         isFullWidth="md"
+        modalSize="sm"
+        className="contactModal"
       >
-        <Row className="gx-2 dataRow m-0">
-          <Col xs="12" className="p-2">
-            Name: {showContentInfo.modalData.first_name}{" "}
+        <h5 className="text-center">Contact Details</h5>
+        <Row className="gx-2 dataRow m-0 bg-transparent py-4 pb-3">
+          <Col xs="12" className="px-2">
+            Name : {showContentInfo.modalData.first_name}{" "}
             {showContentInfo.modalData.last_name}{" "}
             {!showContentInfo.modalData.first_name &&
               !showContentInfo.modalData.last_name &&
               "NA"}
           </Col>
-          <Col xs="12" className="p-2">
+          <Col xs="12" className="px-2">
             Email :{" "}
             {showContentInfo.modalData.email
               ? showContentInfo.modalData.email
               : "NA"}
           </Col>
-          <Col xs="12" className="p-2">
+          <Col xs="12" className="px-2">
             Phone No. :{" "}
             {showContentInfo.modalData.phone_number
               ? showContentInfo.modalData.phone_number
