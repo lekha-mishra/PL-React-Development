@@ -7,6 +7,8 @@ This task is intended to use the best practices while designing the frontend and
 [![Node-sass](https://img.shields.io/badge/node--sass-%2320232a.svg?style=for-the-badge&logo=node-sass&logoColor=%23C76494)](https://sass-lang.com/libsass)
 [![React-redux](https://img.shields.io/badge/react--redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor=%23764ABC)](https://react-redux.js.org/)
 [![Redux](https://img.shields.io/badge/redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor=%23764ABC)](https://redux.js.org/)
+[![React-custom-scrollbars](https://img.shields.io/badge/react--custom--scrollbars-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://github.com/malte-wessel/react-custom-scrollbars)
+[![Reselect](https://img.shields.io/badge/reselect-%2320232a.svg?style=for-the-badge&logo=reselect&logoColor=%2361DAFB)](https://github.com/reduxjs/reselect)
 
 
 # Libraries Used:
