@@ -33,22 +33,11 @@ REACT_APP_CONTACTS_API_URL="https://api.dev.pastorsline.com/api/contacts.json"
    ```bash
    npm i
    ```
-4. Start the development server:
-
-   ```bash
+    ```bash
    PORT=30080  npm start
    ```
    Open your web browser and visit http://localhost:30080 to see the app in action.
   
-
-  
-# Contributions
-Contributions to the DataTable Project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-# License
-This project is licensed under the MIT License.
-
-
 
 
 
