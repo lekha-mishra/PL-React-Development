@@ -1,6 +1,14 @@
 # PL-React-Development
 This task is intended to use the best practices while designing the frontend and check how to use predefined libraries.
 
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![Axios](https://img.shields.io/badge/axios-%2320232a.svg?style=for-the-badge&logo=axios&logoColor=%2323F3FE)](https://axios-http.com/)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-%2320232a.svg?style=for-the-badge&logo=bootstrap&logoColor=%237952B3)](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+[![Node-sass](https://img.shields.io/badge/node--sass-%2320232a.svg?style=for-the-badge&logo=node-sass&logoColor=%23C76494)](https://sass-lang.com/libsass)
+[![React-redux](https://img.shields.io/badge/react--redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor=%23764ABC)](https://react-redux.js.org/)
+[![Redux](https://img.shields.io/badge/redux-%2320232a.svg?style=for-the-badge&logo=redux&logoColor=%23764ABC)](https://redux.js.org/)
+
+
 # Libraries Used:
 - React
 - Axios
