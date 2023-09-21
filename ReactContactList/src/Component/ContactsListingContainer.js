@@ -95,24 +95,12 @@ function ContactsListingContainer(props) {
   };
 
   useEffect(() => {
-    if (props?.searchValue.length) {
-      new Promise(function (resolve, reject) {
-        setTimeout(() => {
-          contactList.length = 0;
-          setContactList([]);
-          fetchData(props?.searchValue);
-          resolve();
-        }, 2000);
-      });
-    }
-
+    let delay;
     if (props?.isEnterPressed) {
       contactList.length = 0;
       setContactList([]);
       fetchData(props?.searchValue);
-    }
-
-    if (conditionalApiCalls.countryId !== props?.countryId) {
+    } else if (conditionalApiCalls.countryId !== props?.countryId) {
       contactList.length = 0;
       setContactList([]);
       setCurrPage(1);
@@ -121,7 +109,17 @@ function ContactsListingContainer(props) {
         countryId: props?.countryId,
       });
       fetchData(props?.searchValue);
+    } else {
+      new Promise(function (resolve, reject) {
+        delay = setTimeout(() => {
+          contactList.length = 0;
+          setContactList([]);
+          fetchData(props?.searchValue);
+          resolve();
+        }, 2000);
+      });
     }
+    return () => clearTimeout(delay);
   }, [props?.isEnterPressed, props?.searchValue.length, props?.countryId]);
 
   const filteredContactList = props?.isEven
