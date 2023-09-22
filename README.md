@@ -24,10 +24,17 @@ REACT_APP_CONTACTS_API_URL="https://api.dev.pastorsline.com/api/contacts.json"
 ```
 
 2. Run the code:
-   ```bash
-   npm i
-   ```
-    ```bash
+
+```bash
+git clone https://github.com/lekha-mishra/PL-React-Development.git
+```
+```bash
+cd ReactContactList
+```
+```bash
+npm i
+```
+  ```bash
    PORT=30080  npm start
    ```
    Open your web browser and visit http://localhost:30080 to see the app in action.
