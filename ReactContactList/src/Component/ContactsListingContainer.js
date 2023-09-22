@@ -2,7 +2,10 @@ import React, { useRef, useEffect, useState } from "react";
 import ContactsListing from "./ContactsListing";
 import axios from "axios";
 import Spinner from "react-bootstrap/Spinner";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 import CustomModal from "./Modal";
 
 function ContactsListingContainer(props) {

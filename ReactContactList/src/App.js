@@ -1,10 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Tab from "react-bootstrap/Tab";
 import { useState } from "react";
 import CustomModal from "./Component/Modal";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Button, Form, Nav, Tab } from "react-bootstrap";
 import ContactsListingContainer from "./Component/ContactsListingContainer";
 
 function App() {
@@ -116,9 +118,16 @@ function App() {
                           })
                         }
                       >
-                        All Contacts
+                        <Link
+                          className="text-white btn A"
+                          to="/modal/A"
+                          state={{ previousLocation: location }}
+                        >
+                          All Contacts
+                        </Link>
                       </Nav.Link>
                     </Nav.Item>
+
                     <Nav.Item>
                       <Nav.Link
                         eventKey="us-contacts"
@@ -131,7 +140,13 @@ function App() {
                           })
                         }
                       >
-                        US Contacts
+                        <Link
+                          className="text-white btn B"
+                          to="/modal/B"
+                          state={{ previousLocation: location }}
+                        >
+                          US Contacts
+                        </Link>
                       </Nav.Link>
                     </Nav.Item>
                   </Nav>

@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Modal } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 const CustomModal = (props) => {
   return (
